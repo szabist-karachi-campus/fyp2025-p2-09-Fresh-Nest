@@ -1,0 +1,154 @@
+{
+  "freshnestseller": {
+    "common_appName": {
+      "full": "ری ایکٹ نیٹیو فریش نیسٹ سیلر",
+      "initials": "آر این بی"
+    },
+    "common_error": "اوہ! کچھ غلط ہو گیا۔",
+    "screen_example": {
+      "hello_user": "ہیلو، میرا نام {{name}} ہے",
+      "title": "خوش آمدید $t(common_appName.full) پر",
+      "description": "کیا آپ کچھ خصوصیات دریافت کرنا چاہتے ہیں؟ اسکرین کے نیچے دیے گئے تین بٹنوں میں سے کسی ایک پر کلک کریں۔ پہلا ایک REST API کو کال کرنے دیتا ہے۔ دوسرا تھیم کا رنگ تبدیل کرنے دیتا ہے۔ اور تیسرا زبان تبدیل کرنے دیتا ہے۔"
+    },
+    "error_boundary": {
+      "title": "اوہ! کچھ غلط ہو گیا۔",
+      "description": "ہم معذرت خواہ ہیں۔ براہ کرم بعد میں دوبارہ کوشش کریں۔",
+      "cta": "اسکرین دوبارہ لوڈ کریں"
+    },
+    "auth": {
+      "login_screen": {
+        "loginTitle": "لاگ ان کریں",
+        "emailPlaceholder": "ای میل ایڈریس",
+        "passwordPlaceholder": "پاس ورڈ",
+        "forgotPassword": "پاس ورڈ بھول گئے؟",
+        "loginButton": "لاگ ان",
+        "sellerSignupPrompt": "فریش نیسٹ سیلر پر نئے ہیں؟ سائن اپ کریں!",
+        "emailRequired": "ای میل ضروری ہے",
+        "emailInvalid": "براہ کرم درست ای میل پتہ درج کریں",
+        "passwordRequired": "پاس ورڈ ضروری ہے",
+        "passwordInvalid": "غلط پاس ورڈ"
+      },
+      "signup": {
+        "signupTitle": "سائن اپ کریں",
+        "namePlaceholder": "نام",
+        "emailPlaceholder": "ای میل ایڈریس",
+        "contactPlaceholder": "فون نمبر",
+        "cnicPlaceholder": "شناختی کارڈ نمبر (CNIC)",
+        "passwordPlaceholder": "پاس ورڈ",
+        "confirmPasswordPlaceholder": "پاس ورڈ کی تصدیق کریں",
+        "nameRequired": "نام ضروری ہے۔",
+        "nameShort": "نام کم از کم 3 حروف کا ہونا چاہیے۔",
+        "nameLong": "نام 50 حروف سے زیادہ نہیں ہو سکتا۔",
+        "emailRequired": "ای میل ضروری ہے۔",
+        "emailInvalid": "درست ای میل پتہ درج کریں۔",
+        "phoneRequired": "فون نمبر ضروری ہے۔",
+        "phoneShort": "فون نمبر بہت چھوٹا ہے۔",
+        "phoneInvalid": "درست فون نمبر درج کریں (مثال کے طور پر: +923XXXXXXXXX یا 03XXXXXXXXX)۔",
+        "cnicRequired": "شناختی کارڈ نمبر (CNIC) ضروری ہے۔",
+        "cnicInvalid": "درست CNIC درج کریں (مثال کے طور پر: 12345-1234567-1)۔",
+        "passwordRequired": "پاس ورڈ ضروری ہے۔",
+        "passwordShort": "پاس ورڈ کم از کم 6 حروف کا ہونا چاہیے۔",
+        "passwordLong": "پاس ورڈ 50 حروف سے زیادہ نہیں ہو سکتا۔",
+        "conformPasswordRequired": "پاس ورڈ کی تصدیق ضروری ہے۔",
+        "passwordMismatch": "پاس ورڈ مماثل نہیں ہیں۔",
+        "signupButton": "سائن اپ کریں",
+        "loginPrompt": "پہلے سے اکاؤنٹ ہے؟ لاگ ان کریں"
+      },
+      "otp": {
+        "otpTitle": "او ٹی پی درج کریں",
+        "verifyButton": "تصدیق کریں",
+        "resendOtp": "او ٹی پی دوبارہ بھیجیں",
+        "resendOtpCountdown": "او ٹی پی دوبارہ بھیجیں {{timer}} سیکنڈ میں",
+        "incorrectOtp": "غلط او ٹی پی",
+        "otpSent": "او ٹی پی آپ کے موبائل نمبر پر بھیج دیا گیا ہے"
+      },
+      "changePassword": {
+        "changePasswordTitle": "پاس ورڈ تبدیل کریں",
+        "newPasswordLabel": "نیا پاس ورڈ",
+        "confirmPasswordLabel": "نئے پاس ورڈ کی تصدیق کریں",
+        "submitButton": "پاس ورڈ اپ ڈیٹ کریں",
+        "passwordMismatchError": "نئے پاس ورڈ مماثل نہیں ہیں۔",
+        "passwordUpdateSuccess": "آپ کا پاس ورڈ کامیابی سے اپ ڈیٹ ہو گیا ہے۔",
+        "passwordUpdateError": "پاس ورڈ اپ ڈیٹ کرتے وقت ایک خرابی پیش آگئی۔ براہ کرم دوبارہ کوشش کریں۔",
+        "passwordRequired": "پاس ورڈ ضروری ہے۔",
+        "passwordShort": "پاس ورڈ کم از کم 8 حروف کا ہونا چاہیے۔"
+      },
+      "forgotPassword": {
+        "forgotPasswordTitle": "پاس ورڈ بھول گئے؟",
+        "emailPlaceholder": "ای میل ایڈریس",
+        "submitButton": "او ٹی پی بھیجیں",
+        "emailRequired": "ای میل ضروری ہے",
+        "emailInvalid": "براہ کرم درست ای میل پتہ درج کریں"
+      }
+    },
+    "home": {
+      "welcome": "خوش آمدید",
+      "total_sales": "کل فروخت",
+      "analytics": "تجزیات",
+      "my_products": "میرے مصنوعات",
+      "view_all": "سب دیکھیں ->",
+      "my_orders": "میرے آرڈرز",
+      "order_id": "آرڈر آئی ڈی",
+      "quantity": "مقدار",
+      "total_price": "کل قیمت",
+      "order_status": "آرڈر کی حیثیت",
+      "payment_status": "ادائیگی کی حیثیت",
+      "payment_method": "ادائیگی کا طریقہ"
+    },
+    "Product": {
+      "productTitle": "مصنوعات"
+    },
+    "AddProduct": {
+      "addProductTitle": "پروڈکٹ شامل کریں",
+      "productName": "پروڈکٹ کا نام",
+      "productPrice": "پروڈکٹ کی قیمت",
+      "productQuantity": "پروڈکٹ کی مقدار",
+      "productDescription": "پروڈکٹ کی تفصیل",
+      "productCategory": "پروڈکٹ کا زمرہ",
+      "productImage": "پروڈکٹ کی تصویر",
+      "addProductButton": "پروڈکٹ شامل کریں",
+      "productNameRequired": "پروڈکٹ کا نام درکار ہے۔",
+      "productNameShort": "پروڈکٹ کا نام کم از کم 3 حروف پر مشتمل ہونا چاہئے۔",
+      "productNameLong": "پروڈکٹ کا نام 50 حروف سے زیادہ نہیں ہو سکتا۔",
+      "productPriceRequired": "پروڈکٹ کی قیمت درکار ہے۔",
+      "productPriceInvalid": "معتبر پروڈکٹ کی قیمت درج کریں۔",
+      "productQuantityRequired": "پروڈکٹ کی مقدار درکار ہے۔",
+      "productQuantityInvalid": "معتبر پروڈکٹ کی مقدار درج کریں۔",
+      "productDescriptionRequired": "پروڈکٹ کی تفصیل درکار ہے۔",
+      "productDescriptionShort": "پروڈکٹ کی تفصیل کم از کم 10 حروف پر مشتمل ہونی چاہیے۔",
+      "productDescriptionLong": "پروڈکٹ کی تفصیل 500 حروف سے زیادہ نہیں ہو سکتی۔",
+      "productCategoryRequired": "پروڈکٹ کا زمرہ درکار ہے۔",
+      "productImageRequired": "پروڈکٹ کی تصویر درکار ہے۔",
+      "productUnit": "یونٹ",
+      "productUnitRequired": "پروڈکٹ کا یونٹ درکار ہے۔"
+    },
+    "VendorOrders": {
+      "vendorOrdersTitle": "وینڈر آرڈرز",
+      "orderDetails": "آرڈر کی تفصیلات",
+      "total": "کل",
+      "items": "آئٹمز",
+      "date": "تاریخ",
+      "noOrdersAvailable": "کوئی آرڈرز دستیاب نہیں ہیں۔"
+    },
+    "OrderDetails": {
+      "orderSummary": "آرڈر کا خلاصہ",
+      "orderId": "آرڈر آئی ڈی",
+      "orderDate": "آرڈر کی تاریخ",
+      "status": " اسٹيٹس",
+      "total": "مجموعی رقم",
+      "customerDetails": "صارف کی تفصیلات",
+      "name": "نام",
+      "email": "ای میل",
+      "phone": "فون",
+      "address": "پتہ",
+      "orderItem": "آرڈر کی اشیاء",
+      "quantity": "مقدار",
+      "price": "قیمت",
+      "updateStatus": "اسٹيٹس کو اپ ڈیٹ کریں",
+      "noOrderDetails": "کوئی آرڈر کی تفصیلات دستیاب نہیں ہیں۔"
+    },
+    "CreateAd": {
+      "advertisementInfo": "ہمارے اشتہاری نظام میں، آپ کے اشتہار کی نمائش اس بات پر منحصر ہے کہ آپ فی کلک (Cost Per Click یا CPC) کتنی رقم دینے کو تیار ہیں۔ جتنا زیادہ آپ بولی (bid) لگائیں گے، اتنا ہی زیادہ امکان ہے کہ آپ کا اشتہار نظر آئے گا۔ ہم صرف ان ٹاپ 5 اشتہارات کو عوام کے سامنے دکھاتے ہیں جن کی بولی سب سے زیادہ ہوتی ہے۔ اس لیے اگر آپ چاہتے ہیں کہ آپ کا اشتہار نمایاں ہو، تو دی گئی حدود میں ایک اچھی بولی لگائیں۔ فکر نہ کریں — آپ سے صرف اسی وقت رقم لی جائے گی جب کوئی آپ کے اشتہار پر واقعی کلک کرے گا، جو کہ ایک مؤثر اور سستا طریقہ ہے زیادہ لوگوں تک پہنچنے کا۔"
+    }
+  }
+}

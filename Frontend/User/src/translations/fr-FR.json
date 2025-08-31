@@ -1,0 +1,177 @@
+{
+  "freshnestnew": {
+    "common_appName": {
+      "full": "ری ایکٹ نیٹیو فریش نیسٹ",
+      "initials": "RNB"
+    },
+    "common_error": "اوہ! کچھ غلط ہو گیا۔",
+    "screen_example": {
+      "hello_user": "ہیلو، میرا نام {{name}} ہے",
+      "title": "خوش آمدید $t(common_appName.full)",
+      "description": "کیا آپ کچھ فیچرز دریافت کرنا چاہتے ہیں؟ نیچے دیے گئے تین بٹنوں میں سے کسی ایک پر کلک کریں۔ پہلا REST API کو کال کرتا ہے، دوسرا تھیم کا رنگ تبدیل کرتا ہے، اور تیسرا زبان تبدیل کرتا ہے۔"
+    },
+    "error_boundary": {
+      "title": "اوہ! کچھ غلط ہو گیا۔",
+      "description": "ہمیں تکلیف کے لیے افسوس ہے۔ براہ کرم کچھ دیر بعد دوبارہ کوشش کریں۔",
+      "cta": "اسکرین دوبارہ لوڈ کریں"
+    },
+    "login": {
+      "loginTitle": "لاگ ان",
+      "emailPlaceholder": "ای میل ایڈریس",
+      "passwordPlaceholder": "پاس ورڈ",
+      "forgotPassword": "پاس ورڈ بھول گئے؟",
+      "loginButton": "لاگ ان کریں",
+      "signupPrompt": "فریش نیسٹ پر نئے ہیں؟ سائن اپ کریں!",
+      "emailRequired": "ای میل لازمی ہے",
+      "emailInvalid": "درست ای میل درج کریں",
+      "passwordRequired": "پاس ورڈ لازمی ہے",
+      "passwordInvalid": "غلط پاس ورڈ"
+    },
+    "signup": {
+      "signupTitle": "سائن اپ",
+      "emailPlaceholder": "ای میل ایڈریس",
+      "passwordPlaceholder": "پاس ورڈ",
+      "confirmPasswordPlaceholder": "پاس ورڈ کی تصدیق کریں",
+      "namePlaceholder": "مکمل نام",
+      "contactPlaceholder": "رابطہ نمبر",
+      "signupButton": "سائن اپ کریں",
+      "loginPrompt": "پہلے سے اکاؤنٹ ہے؟ لاگ ان کریں!",
+      "nameRequired": "نام لازمی ہے",
+      "nameShort": "نام کم از کم 2 حروف کا ہونا چاہیے",
+      "nameLong": "نام زیادہ سے زیادہ 50 حروف کا ہونا چاہیے",
+      "emailRequired": "ای میل لازمی ہے",
+      "emailInvalid": "درست ای میل درج کریں",
+      "phoneRequired": "رابطہ نمبر لازمی ہے",
+      "phoneShort": "رابطہ نمبر کم از کم 11 ہندسوں کا ہونا چاہیے",
+      "phoneInvalid": "درست رابطہ نمبر درج کریں",
+      "passwordRequired": "پاس ورڈ لازمی ہے",
+      "passwordShort": "پاس ورڈ کم از کم 6 حروف کا ہونا چاہیے",
+      "passwordLong": "پاس ورڈ زیادہ سے زیادہ 50 حروف کا ہونا چاہیے",
+      "conformPasswordRequired": "پاس ورڈ کی تصدیق لازمی ہے",
+      "passwordMismatch": "پاس ورڈز مطابقت نہیں رکھتے"
+    },
+    "forgotPassword": {
+      "forgotPasswordTitle": "پاس ورڈ بھول گئے؟",
+      "emailPlaceholder": "ای میل ایڈریس",
+      "submitButton": "OTP بھیجیں",
+      "emailRequired": "ای میل لازمی ہے",
+      "emailInvalid": "درست ای میل درج کریں"
+    },
+    "otp": {
+      "otpTitle": "OTP درج کریں",
+      "verifyButton": "تصدیق کریں",
+      "resendOtp": "OTP دوبارہ بھیجیں",
+      "resendOtpCountdown": "{{timer}} سیکنڈ میں OTP دوبارہ بھیجیں",
+      "incorrectOtp": "غلط OTP",
+      "otpSent": "OTP آپ کے موبائل نمبر پر بھیجا گیا"
+    },
+    "changePassword": {
+      "changePasswordTitle": "پاس ورڈ تبدیل کریں",
+      "newPasswordLabel": "نیا پاس ورڈ",
+      "confirmPasswordLabel": "نئے پاس ورڈ کی تصدیق کریں",
+      "submitButton": "پاس ورڈ اپ ڈیٹ کریں",
+      "passwordMismatchError": "پاس ورڈز مطابقت نہیں رکھتے۔",
+      "passwordUpdateSuccess": "آپ کا پاس ورڈ کامیابی سے اپ ڈیٹ ہو گیا ہے۔",
+      "passwordUpdateError": "پاس ورڈ اپ ڈیٹ کرتے وقت خرابی ہوئی۔ دوبارہ کوشش کریں۔",
+      "passwordRequired": "پاس ورڈ لازمی ہے۔",
+      "passwordShort": "پاس ورڈ کم از کم 8 حروف کا ہونا چاہیے۔"
+    },
+    "home": {
+      "welcome_message": "خوش آمدید!",
+      "search_placeholder": "تلاش کریں",
+      "price_prefix": "روپے:"
+    },
+    "product": {
+      "product_not_found_message": "پروڈکٹ نہیں ملی۔",
+      "price_label": "روپے:",
+      "description_label": "تفصیل",
+      "no_description_message": "تفصیل دستیاب نہیں۔",
+      "add_to_cart_button": "ٹوکری میں ڈالیں"
+    },
+    "profile": {
+      "view_orders_button": "آرڈرز دیکھیں"
+    },
+    "orders": {
+      "your_orders_header": "آپ کے آرڈرز",
+      "order_status_delivered": "پہنچایا گیا",
+      "order_status_processing": "پروسیسنگ میں",
+      "order_status_cancelled": "منسوخ",
+      "order_status_pending": "زیر التواء",
+      "total_label": "روپے:",
+      "quantity_label": "مقدار:",
+      "date_label": "تاریخ:",
+      "order_id_label": "آرڈر ID:",
+      "no_orders_message": "کوئی آرڈر دستیاب نہیں۔"
+    },
+    "orderDetails": {
+      "order_details_header": "آرڈر کی تفصیلات",
+      "back_button": "واپس",
+      "order_id_label": "آرڈر ID:",
+      "date_label": "تاریخ:",
+      "status_label": "حالت:",
+      "category_label": "زمرہ:",
+      "price_label": "قیمت:",
+      "order_summary_header": "آرڈر کا خلاصہ",
+      "quantity_label": "مقدار:",
+      "total_label": "کل:",
+      "order_not_found_message": "آرڈر نہیں ملا",
+      "go_to_whatsapp_button": "واٹس ایپ پر جائیں",
+      "error_opening_whatsapp": "واٹس ایپ کھولتے وقت خرابی ہوئی"
+    },
+    "settings": {
+      "theme_toggle_label": "تھیم",
+      "language_toggle_label": "زبان",
+      "dark_mode_text": "ڈارک",
+      "light_mode_text": "لائٹ",
+      "urdu_language_text": "اردو",
+      "english_language_text": "انگریزی",
+      "change_password_button": "پاس ورڈ تبدیل کریں",
+      "logout_button": "لاگ آؤٹ"
+    },
+    "cart": {
+      "title": "آپ کی ٹوکری",
+      "empty_cart_message": "آپ کی ٹوکری خالی ہے",
+      "total_label": "کل",
+      "proceed_to_checkout_button": "چیک آؤٹ پر جائیں",
+      "subscribe_button": "سبسکرائب کریں",
+      "item_price_label": "روپے:",
+      "quantity_label": "مقدار",
+      "delete_item_icon_tooltip": "آئٹم حذف کریں",
+      "decrease_quantity_icon_tooltip": "مقدار کم کریں",
+      "increase_quantity_icon_tooltip": "مقدار بڑھائیں"
+    },
+    "checkout": {
+      "contact_details": "رابطہ کی تفصیلات",
+      "name_label": "نام",
+      "email_label": "ای میل",
+      "phone_label": "فون",
+      "shipping_address": "شپنگ ایڈریس",
+      "edit_address": "ایڈریس میں ترمیم کریں",
+      "submit_address_button": "ایڈریس جمع کروائیں",
+      "payment_method": "ادائیگی کا طریقہ",
+      "cash_on_delivery": "کیش آن ڈیلیوری",
+      "payfast_method": "پےفاسٹ (ڈیبٹ/کریڈٹ/والٹ/بینک اکاؤنٹ)",
+      "payment_method_note": "*فی الحال صرف کیش آن ڈیلیوری دستیاب ہے۔",
+      "order_summary": "آرڈر کا خلاصہ",
+      "total_label": "کل",
+      "confirm_order_button": "آرڈر کی تصدیق کریں",
+      "proceed_to_payment_button": "ادائیگی پر جائیں",
+      "address_placeholder": "ایڈریس",
+      "city_placeholder": "شہر",
+      "state_placeholder": "صوبہ",
+      "postal_code_placeholder": "ڈاک کوڈ",
+      "address_error": "ایڈریس لازمی ہے۔",
+      "city_error": "شہر لازمی ہے۔",
+      "state_error": "صوبہ لازمی ہے۔",
+      "postal_code_error": "ڈاک کوڈ لازمی ہے۔",
+      "postal_code_format_error": "ڈاک کوڈ 5 ہندسوں پر مشتمل ہونا چاہیے۔",
+      "order_success_message": "آرڈر کامیابی سے مکمل ہو گیا!",
+      "order_error_message": "آرڈر مکمل کرتے وقت خرابی ہوئی۔",
+      "address_submit_error": "ایڈریس جمع کرواتے وقت خرابی ہوئی"
+    },
+    "noConnection": {
+      "title": "انٹرنیٹ کنکشن منقطع ہو گیا",
+      "subtitle": "جاری رکھنے کے لیے براہ کرم انٹرنیٹ سے کنیکٹ ہوں"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+framework module Pods_FreshNestSeller_FreshNestSellerTests {
+  umbrella header "Pods-FreshNestSeller-FreshNestSellerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "208937421094",
+    "project_id": "freshnestsellerandroid",
+    "storage_bucket": "freshnestsellerandroid.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208937421094:android:03dadf3eb4cf40021019e7",
+        "android_client_info": {
+          "package_name": "com.freshnestseller"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsS_ZOvfMRGVM_an83sJRNuIk2fS43X6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

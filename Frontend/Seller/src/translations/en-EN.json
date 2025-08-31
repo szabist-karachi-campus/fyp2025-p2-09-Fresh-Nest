@@ -1,0 +1,155 @@
+{
+  "freshnestseller": {
+    "common_appName": {
+      "full": "React Native FreshNestSeller",
+      "initials": "RNB"
+    },
+    "common_error": "Oops! Something went wrong.",
+    "screen_example": {
+      "hello_user": "Hi, my name is {{name}}",
+      "title": "Welcome on The $t(common_appName.full)",
+      "description": "Do you want to discover some features? Just click on one of the three buttons at the bottom of the screen. The first allows you to call a REST API. The second lets you change the theme color. And the third allows you to change the language."
+    },
+    "error_boundary": {
+      "title": "Oops! Something went wrong.",
+      "description": "We are sorry for the inconvenience. Please try again later.",
+      "cta": "Reload the screen"
+    },
+    "auth": {
+      "login_screen": {
+        "loginTitle": "Login",
+        "emailPlaceholder": "Email Address",
+        "passwordPlaceholder": "Password",
+        "forgotPassword": "Forgot Password?",
+        "loginButton": "Login",
+        "sellerSignupPrompt": "New to Fresh Nest Seller? Sign up!",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email address",
+        "passwordRequired": "Password is required",
+        "passwordInvalid": "Wrong Password"
+      },
+      "signup": {
+        "signupTitle": "Sign Up",
+        "namePlaceholder": "Name",
+        "emailPlaceholder": "Email Address",
+        "contactPlaceholder": "Contact Number",
+        "cnicPlaceholder": "CNIC",
+        "passwordPlaceholder": "Password",
+        "confirmPasswordPlaceholder": "Confirm Password",
+        "nameRequired": "Name is required.",
+        "nameShort": "Name must be at least 3 characters.",
+        "nameLong": "Name cannot exceed 50 characters.",
+        "emailRequired": "Email is required.",
+        "emailInvalid": "Enter a valid email address.",
+        "phoneRequired": "Phone number is required.",
+        "phoneShort": "Phone number is too short.",
+        "phoneInvalid": "Enter a valid phone number (e.g., +923XXXXXXXXX or 03XXXXXXXXX).",
+        "cnicRequired": "CNIC is required.",
+        "cnicInvalid": "Enter a valid CNIC (e.g., 12345-1234567-1).",
+        "passwordRequired": "Password is required.",
+        "passwordShort": "Password must be at least 6 characters.",
+        "passwordLong": "Password cannot exceed 50 characters.",
+        "conformPasswordRequired": "Confirm password is required.",
+        "passwordMismatch": "Passwords do not match.",
+        "signupButton": "Sign Up",
+        "loginPrompt": "Already have an account? Login"
+      },
+      "otp": {
+        "otpTitle": "Enter OTP",
+        "verifyButton": "Verify",
+        "resendOtp": "Resend OTP",
+        "resendOtpCountdown": "Resend OTP in {{timer}}s",
+        "incorrectOtp": "Incorrect OTP",
+        "otpSent": "OTP sent to your mobile number"
+      },
+      "changePassword": {
+        "changePasswordTitle": "Change Password",
+        "newPasswordLabel": "New Password",
+        "confirmPasswordLabel": "Confirm New Password",
+        "submitButton": "Update Password",
+        "passwordMismatchError": "New passwords do not match.",
+        "passwordUpdateSuccess": "Your password has been successfully updated.",
+        "passwordUpdateError": "An error occurred while updating the password. Please try again.",
+        "passwordRequired": "Password is required.",
+        "passwordShort": "Password must be at least 8 characters long."
+      },
+      "forgotPassword": {
+        "forgotPasswordTitle": "Forgot Password?",
+        "emailPlaceholder": "Email Address",
+        "submitButton": "Send OTP",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email address"
+      }
+    },
+    "home": {
+      "welcome": "Welcome",
+      "total_sales": "Total Sales",
+      "analytics": "Analytics",
+      "my_products": "My Products",
+      "view_all": "View All ->",
+      "my_orders": "My Orders",
+      "order_id": "Order ID",
+      "quantity": "Quantity",
+      "total_price": "Total",
+      "payment_status": "Payment Status",
+      "payment_method": "Payment Method"
+    },
+    "Product": {
+      "productTitle": "Product"
+    },
+    "AddProduct": {
+      "addProductTitle": "Add Product",
+      "productName": "Product Name",
+      "productPrice": "Product Price",
+      "productQuantity": "Product Quantity",
+      "productDescription": "Product Description",
+      "productCategory": "Product Category",
+      "productImage": "Product Image",
+      "addProductButton": "Add Product",
+      "productNameRequired": "Product Name is required.",
+      "productNameShort": "Product Name must be at least 3 characters.",
+      "productNameLong": "Product Name cannot exceed 50 characters.",
+      "productPriceRequired": "Product Price is required.",
+      "productPriceInvalid": "Enter a valid product price.",
+      "productQuantityRequired": "Product Quantity is required.",
+      "productQuantityInvalid": "Enter a valid product quantity.",
+      "productDescriptionRequired": "Product Description is required.",
+      "productDescriptionShort": "Product Description must be at least 10 characters.",
+      "productDescriptionLong": "Product Description cannot exceed 500 characters.",
+      "productCategoryRequired": "Product Category is required.",
+      "productImageRequired": "Product Image is required.",
+      "productUnit": "Unit",
+      "productUnitRequired": "Product Unit is required."
+    },
+    "VendorOrders": {
+      "vendorOrdersTitle": "Vendor Orders",
+      "orderDetails": "Order Details",
+      "total": "Total",
+      "items": "Items",
+      "date": "Date",
+      "noOrdersAvailable": "No orders available."
+    },
+    "OrderDetails": {
+      "orderSummary": "Order Summary",
+      "orderId": "Order ID",
+      "orderDate": "Order Date",
+      "status": "Status",
+      "total": "Total",
+      "customerDetails": "Customer Details",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "orderItem": "Order Item",
+      "quantity": "Quantity",
+      "price": "Price",
+      "updateStatus": "Update Status",
+      "noOrderDetails": "No order details available.",
+      "selectLocation": "Select Location",
+      "totalPrice": "Total Price"
+    },
+    "CreateAd": {
+      "advertisementInfo": "In our advertising system, your ad's visibility depends on how much you're willing to pay per click (Cost Per Click or CPC). The higher your bid, the better your chances of being seen. We display only the top 5 ads with the highest CPC bids to the public, so if you want your ad to be featured, consider setting a competitive bid within the suggested range. Don't worry — you'll only be charged when someone actually clicks on your ad, making it a cost-effective way to reach more users."
+    }
+  }
+}

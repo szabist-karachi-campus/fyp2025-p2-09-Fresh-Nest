@@ -1,0 +1,177 @@
+{
+  "freshnestnew": {
+    "common_appName": {
+      "full": "React Native FreshNestNew",
+      "initials": "RNB"
+    },
+    "common_error": "Oops! Something went wrong.",
+    "screen_example": {
+      "hello_user": "Hi, my name is {{name}}",
+      "title": "Welcome on The $t(common_appName.full)",
+      "description": "Do you want to discover some features? Just click on one of the three buttons at the bottom of the screen. The first allows you to call a REST API. The second lets you change the theme color. And the third allows you to change the language."
+    },
+    "error_boundary": {
+      "title": "Oops! Something went wrong.",
+      "description": "We are sorry for the inconvenience. Please try again later.",
+      "cta": "Reload the screen"
+    },
+    "login": {
+      "loginTitle": "Login",
+      "emailPlaceholder": "Email Address",
+      "passwordPlaceholder": "Password",
+      "forgotPassword": "Forgot Password?",
+      "loginButton": "Login",
+      "signupPrompt": "New to Fresh Nest? Sign up!",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "passwordRequired": "Password is required",
+      "passwordInvalid": "Wrong Password"
+    },
+    "signup": {
+      "signupTitle": "Sign Up",
+      "emailPlaceholder": "Email Address",
+      "passwordPlaceholder": "Password",
+      "confirmPasswordPlaceholder": "Confirm Password",
+      "namePlaceholder": "Full Name",
+      "contactPlaceholder": "Contact Number",
+      "signupButton": "Sign Up",
+      "loginPrompt": "Already have an account? Login!",
+      "nameRequired": "Name is required",
+      "nameShort": "Name must be atleast 2 characters",
+      "nameLong": "Name must be atmost 50 characters",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address",
+      "phoneRequired": "Contact Number is required",
+      "phoneShort": "Contact Number must be atleast 11 characters",
+      "phoneInvalid": "Please enter a valid contact number",
+      "passwordRequired": "Password is required",
+      "passwordShort": "Password must be atleast 6 characters",
+      "passwordLong": "Password must be atmost 50 characters",
+      "conformPasswordRequired": "Confirm Password is required",
+      "passwordMismatch": "Passwords do not match"
+    },
+    "forgotPassword": {
+      "forgotPasswordTitle": "Forgot Password?",
+      "emailPlaceholder": "Email Address",
+      "submitButton": "Send OTP",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Please enter a valid email address"
+    },
+    "otp": {
+      "otpTitle": "Enter OTP",
+      "verifyButton": "Verify",
+      "resendOtp": "Resend OTP",
+      "resendOtpCountdown": "Resend OTP in {{timer}}s",
+      "incorrectOtp": "Incorrect OTP",
+      "otpSent": "OTP sent to your mobile number"
+    },
+    "changePassword": {
+      "changePasswordTitle": "Change Password",
+      "newPasswordLabel": "New Password",
+      "confirmPasswordLabel": "Confirm New Password",
+      "submitButton": "Update Password",
+      "passwordMismatchError": "New passwords do not match.",
+      "passwordUpdateSuccess": "Your password has been successfully updated.",
+      "passwordUpdateError": "An error occurred while updating the password. Please try again.",
+      "passwordRequired": "Password is required.",
+      "passwordShort": "Password must be at least 8 characters long."
+    },
+    "home": {
+      "welcome_message": "Welcome!",
+      "search_placeholder": "Search",
+      "price_prefix": "Rs:"
+    },
+    "product": {
+      "product_not_found_message": "Product not found.",
+      "price_label": "Rs.",
+      "description_label": "Description",
+      "no_description_message": "No description available.",
+      "add_to_cart_button": "Add to Cart"
+    },
+    "profile": {
+      "view_orders_button": "View Orders"
+    },
+    "orders": {
+      "your_orders_header": "Your Orders",
+      "order_status_delivered": "Delivered",
+      "order_status_processing": "Processing",
+      "order_status_cancelled": "Cancelled",
+      "order_status_pending": "Pending",
+      "total_label": "Rs.",
+      "quantity_label": "Quantity:",
+      "date_label": "Date:",
+      "order_id_label": "Order ID:",
+      "no_orders_message": "No orders available."
+    },
+    "orderDetails": {
+      "order_details_header": "Order Details",
+      "back_button": "Back",
+      "order_id_label": "Order ID:",
+      "date_label": "Date:",
+      "status_label": "Status:",
+      "category_label": "Category:",
+      "price_label": "Price:",
+      "order_summary_header": "Order Summary",
+      "quantity_label": "Quantity:",
+      "total_label": "Total:",
+      "order_not_found_message": "Order not found",
+      "go_to_whatsapp_button": "Go to WhatsApp",
+      "error_opening_whatsapp": "An error occurred while trying to open WhatsApp"
+    },
+    "settings": {
+      "theme_toggle_label": "Theme",
+      "language_toggle_label": "Language",
+      "dark_mode_text": "Dark",
+      "light_mode_text": "Light",
+      "urdu_language_text": "Urdu",
+      "english_language_text": "English",
+      "change_password_button": "Change Password",
+      "logout_button": "Logout"
+    },
+    "cart": {
+      "title": "Your Cart",
+      "empty_cart_message": "Your Cart is Empty",
+      "total_label": "Total",
+      "proceed_to_checkout_button": "Proceed to Checkout",
+      "subscribe_button": "Subscribe",
+      "item_price_label": "Rs.",
+      "quantity_label": "Quantity",
+      "delete_item_icon_tooltip": "Delete Item",
+      "decrease_quantity_icon_tooltip": "Decrease Quantity",
+      "increase_quantity_icon_tooltip": "Increase Quantity"
+    },
+    "checkout": {
+      "contact_details": "Contact Details",
+      "name_label": "Name",
+      "email_label": "Email",
+      "phone_label": "Phone",
+      "shipping_address": "Shipping Address",
+      "edit_address": "Edit Address",
+      "submit_address_button": "Submit Address",
+      "payment_method": "Payment Method",
+      "cash_on_delivery": "Cash on Delivery",
+      "payfast_method": "Cashless (Debit/Credit/Wallet/Bank Account)",
+      "payment_method_note": "*Please note that only Cash on Delivery is available at the moment.",
+      "order_summary": "Order Summary",
+      "total_label": "Total",
+      "confirm_order_button": "Confirm Order",
+      "proceed_to_payment_button": "Proceed to Payment",
+      "address_placeholder": "Address",
+      "city_placeholder": "City",
+      "state_placeholder": "State",
+      "postal_code_placeholder": "Postal Code",
+      "address_error": "Address is required.",
+      "city_error": "City is required.",
+      "state_error": "State is required.",
+      "postal_code_error": "Postal code is required.",
+      "postal_code_format_error": "Postal code must be exactly 5 digits.",
+      "order_success_message": "Order placed successfully!",
+      "order_error_message": "An error occurred while placing orders.",
+      "address_submit_error": "An error occurred while submitting the address"
+    },
+    "noConnection": {
+      "title": "Internet connection lost",
+      "subtitle": "Kindly connect to the internet to continue"
+    }
+  }
+}
